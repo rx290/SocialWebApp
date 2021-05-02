@@ -3,7 +3,14 @@
     This Ramazan has been really hard for me another one of my closed relatives have passed away and some urgent matters were there to attend to which made me short on time i have spend 7-8 hours on this project.
     if i include commenting then surely it took me like 15-45 minutes after that.
 
-# is this my code?
+# My Learning and Findings
+
+    I was expecting Django to be like Flask but the scope and the implementation is far bigger than that of Flask.
+    It'll be some fun projects to work with and i'm sure i can do anything asked with both Flask and Django.
+
+    I've attached screenshots of Sqlite3 and Postgresql.
+
+# Is this my code?
 
     Yes and No! This is a refactored salvaged code from stackoverflow and github which has been repurposed for the assesment
 
@@ -25,6 +32,7 @@
     5.  User can follow other users
     6.  User can unfollow the use
     7.  Well Documented Code
+    8.  Git Commited Code
 
 # List of Tasks which haven't been done
 

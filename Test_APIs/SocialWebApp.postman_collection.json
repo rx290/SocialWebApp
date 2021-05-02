@@ -1,0 +1,201 @@
+{
+	"info": {
+		"_postman_id": "a319aa61-049c-488d-ab41-adb21b1541a5",
+		"name": "SocialWebApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Creating a New User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"id\":0,\r\n    \"username\": \"robert\",\r\n    \"password\": \"1122\",\r\n    \"blocked\": \"\",\r\n    \"token\": \"\",\r\n    \"following\":[]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/signup?username=robert&password=bucky",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"signup"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "robert"
+						},
+						{
+							"key": "password",
+							"value": "bucky"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/login?username=robert&password=bucky",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "robert"
+						},
+						{
+							"key": "password",
+							"value": "bucky"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all followers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"id\":\"1\",\r\n    \"text\": \"Today is a good day\",\r\n    \"time\" : \"\",\r\n    \"username\":\"robert\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/create?username=robert&tweet_text=Today is a good day&text=what's up?",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"create"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "robert"
+						},
+						{
+							"key": "tweet_text",
+							"value": "Today is a good day"
+						},
+						{
+							"key": "text",
+							"value": "what's up?"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Timeline",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Follow Someone",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/robert/Rx290/follow",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"robert",
+						"Rx290",
+						"follow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Followers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/Rx290/followers",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"Rx290",
+						"followers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all followings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
