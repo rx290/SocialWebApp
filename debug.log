@@ -1,0 +1,75 @@
+WARNING:django.request:Bad Request: /signup
+WARNING:django.request:Bad Request: /signup
+WARNING:django.request:Bad Request: /signup
+WARNING:django.request:Bad Request: /signup
+WARNING:django.request:Bad Request: /signup
+WARNING:django.request:Bad Request: /signup
+WARNING:django.request:Bad Request: /signup
+WARNING:django.request:Method Not Allowed: /login
+WARNING:django.request:Bad Request: /login
+ERROR:Posts.views:Post() got an unexpected keyword argument 'tweet_text'
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:Post() got an unexpected keyword argument 'tweet_text'
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:Post() got an unexpected keyword argument 'tweet_text'
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:Post() got an unexpected keyword argument 'tweet_text'
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:Post() got an unexpected keyword argument 'tweet_text'
+WARNING:django.request:Bad Request: /create
+INFO:django.utils.autoreload:C:\Users\Dr4g0\Desktop\TechbitSystem_Task\SocialWebApp\Posts\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Dr4g0\Desktop\TechbitSystem_Task\SocialWebApp\Posts\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Dr4g0\Desktop\TechbitSystem_Task\SocialWebApp\Posts\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Dr4g0\Desktop\TechbitSystem_Task\SocialWebApp\Posts\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Dr4g0\Desktop\TechbitSystem_Task\SocialWebApp\Posts\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Dr4g0\Desktop\TechbitSystem_Task\SocialWebApp\Posts\views.py changed, reloading.
+ERROR:Users.views:Signature verification failed
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:{'Error_code': 400, 'Error_Message': 'Invalid username or post text'}
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:{'Error_code': 400, 'Error_Message': 'Invalid username or post text'}
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:{'Error_code': 400, 'Error_Message': 'Invalid username or post text'}
+WARNING:django.request:Bad Request: /create
+ERROR:Users.views:User matching query does not exist.
+WARNING:django.request:Bad Request: /create
+ERROR:Users.views:User matching query does not exist.
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:{'Error_code': 400, 'Error_Message': 'Invalid username or post text'}
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:{'Error_code': 400, 'Error_Message': 'Invalid username or post text'}
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:{'Error_code': 400, 'Error_Message': 'Invalid username or post text'}
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:{'Error_code': 400, 'Error_Message': 'Invalid username or post text'}
+WARNING:django.request:Bad Request: /create
+ERROR:Posts.views:{'Error_code': 400, 'Error_Message': 'Invalid username or post text'}
+WARNING:django.request:Bad Request: /create
+WARNING:django.request:Not Found: /tweet/robert/page=1
+WARNING:django.request:Not Found: /tweet/robert/
+ERROR:Users.views:User matching query does not exist.
+WARNING:django.request:Bad Request: /tweet/
+ERROR:Users.views:User matching query does not exist.
+WARNING:django.request:Bad Request: /tweet/
+WARNING:django.request:Not Found: /tweet/robert
+WARNING:django.request:Not Found: /tweet/robert
+WARNING:django.request:Not Found: /tweet/robert
+WARNING:django.request:Not Found: /tweet/robert
+WARNING:django.request:Not Found: /tweet/robert/
+WARNING:django.request:Not Found: /tweet/robert
+WARNING:django.request:Not Found: /tweet/robert
+WARNING:django.request:Not Found: /tweet/robert
+WARNING:django.request:Not Found: /tweet/robert
+WARNING:django.request:Not Found: /post/robert
+WARNING:django.request:Not Found: /tweet/robert
+ERROR:Users.views:Signature has expired
+WARNING:django.request:Bad Request: /robert/
+WARNING:django.request:Bad Request: /signup
+WARNING:django.request:Method Not Allowed: /robert/Rx290/follow
+WARNING:django.request:Method Not Allowed: /robert/Rx290/follow
+WARNING:django.request:Method Not Allowed: /robert/Rx290/follow
+WARNING:django.request:Not Found: /Rx290/followings
+WARNING:django.request:Not Found: /robert/followings
+WARNING:django.request:Not Found: /
+ERROR:Users.views:'NoneType' object has no attribute 'get'
+WARNING:django.request:Bad Request: /favicon.ico/
